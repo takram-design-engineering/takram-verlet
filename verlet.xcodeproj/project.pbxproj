@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930955321A4FB46600D09023 /* libtakram_verlet.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9309550E1A4FB1FC00D09023 /* libtakram_verlet.dylib */; };
+		93B474741B648D8F00613FB6 /* verlet.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4FD1B2C5A52006EA047 /* verlet.cc */; };
+		93BE69231B75EFFF0085DFFA /* libtakram_math.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE69141B75EFD10085DFFA /* libtakram_math.dylib */; };
+		93BE69261B75F0060085DFFA /* libtakram_math.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE69161B75EFD10085DFFA /* libtakram_math.a */; };
+		93BE692B1B75F0120085DFFA /* libtakram_math.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BE69181B75EFD10085DFFA /* libtakram_math.a */; };
+		93D7E4FE1B2C5A52006EA047 /* verlet.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4FD1B2C5A52006EA047 /* verlet.cc */; };
+		93D7E4FF1B2C5A52006EA047 /* verlet.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93D7E4FD1B2C5A52006EA047 /* verlet.cc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		930955301A4FB46000D09023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F8AD6717C8B39800310877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9309550D1A4FB1FC00D09023;
+			remoteInfo = takram_triangulation_shared;
+		};
+		93BE69131B75EFD10085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9309550E1A4FB1FC00D09023;
+			remoteInfo = math_shared;
+		};
+		93BE69151B75EFD10085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93C6B51519B22F5500A1CF93;
+			remoteInfo = math_static;
+		};
+		93BE69171B75EFD10085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93F858331B564DB200C32E8D;
+			remoteInfo = math_ios;
+		};
+		93BE69191B75EFD10085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 93F1B9F6180282B0002A5A5C;
+			remoteInfo = math_test;
+		};
+		93BE691D1B75EFF90085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9309550D1A4FB1FC00D09023;
+			remoteInfo = math_shared;
+		};
+		93BE69241B75F0020085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93C6B51419B22F5500A1CF93;
+			remoteInfo = math_static;
+		};
+		93BE69291B75F00F0085DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F858161B564DB200C32E8D;
+			remoteInfo = math_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930955031A4FB1E200D09023 /* product.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = product.xcconfig; sourceTree = "<group>"; };
+		930955061A4FB1E200D09023 /* test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = test.xcconfig; sourceTree = "<group>"; };
+		9309550E1A4FB1FC00D09023 /* libtakram_verlet.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libtakram_verlet.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		930959301A5062D400D09023 /* project_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_debug.xcconfig; sourceTree = "<group>"; };
+		930959311A5062D400D09023 /* project_release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project_release.xcconfig; sourceTree = "<group>"; };
+		930959321A5062D400D09023 /* project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = project.xcconfig; sourceTree = "<group>"; };
+		938C0A3E1B7DB69A00922B96 /* container.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = container.h; sourceTree = "<group>"; };
+		938C0A401B7DB8DD00922B96 /* reference_iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reference_iterator.h; sourceTree = "<group>"; };
+		93B474091B648C4C00613FB6 /* libtakram_verlet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_verlet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93BE68801B75E2290085DFFA /* physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = physics.h; sourceTree = "<group>"; };
+		93BE68851B75E2340085DFFA /* particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particle.h; sourceTree = "<group>"; };
+		93BE688A1B75E2490085DFFA /* spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spring.h; sourceTree = "<group>"; };
+		93BE688F1B75E30F0085DFFA /* attraction_behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attraction_behavior.h; sourceTree = "<group>"; };
+		93BE68941B75E31B0085DFFA /* constant_force_behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constant_force_behavior.h; sourceTree = "<group>"; };
+		93BE68991B75E3360085DFFA /* gravity_behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gravity_behavior.h; sourceTree = "<group>"; };
+		93BE689E1B75E3480085DFFA /* angular_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = angular_constraint.h; sourceTree = "<group>"; };
+		93BE68A31B75E34F0085DFFA /* axis_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = axis_constraint.h; sourceTree = "<group>"; };
+		93BE68A81B75E3580085DFFA /* circular_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circular_constraint.h; sourceTree = "<group>"; };
+		93BE68AD1B75E35F0085DFFA /* max_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = max_constraint.h; sourceTree = "<group>"; };
+		93BE68B21B75E3670085DFFA /* min_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = min_constraint.h; sourceTree = "<group>"; };
+		93BE68B71B75E3700085DFFA /* polygonal_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polygonal_constraint.h; sourceTree = "<group>"; };
+		93BE68BC1B75E3840085DFFA /* rectangular_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rectangular_constraint.h; sourceTree = "<group>"; };
+		93BE68C11B75E4D70085DFFA /* behavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = behavior.h; sourceTree = "<group>"; };
+		93BE68C61B75E4E10085DFFA /* constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constraint.h; sourceTree = "<group>"; };
+		93BE68CB1B75E5500085DFFA /* pull_back_spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pull_back_spring.h; sourceTree = "<group>"; };
+		93BE68DA1B75E5B90085DFFA /* constrained_spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constrained_spring.h; sourceTree = "<group>"; };
+		93BE68DF1B75E5C20085DFFA /* min_distance_spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = min_distance_spring.h; sourceTree = "<group>"; };
+		93BE68E41B75E69F0085DFFA /* box_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = box_constraint.h; sourceTree = "<group>"; };
+		93BE68E91B75E6A70085DFFA /* cylindrical_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cylindrical_constraint.h; sourceTree = "<group>"; };
+		93BE68EE1B75E6B40085DFFA /* planar_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = planar_constraint.h; sourceTree = "<group>"; };
+		93BE68F31B75E6BC0085DFFA /* soft_box_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = soft_box_constraint.h; sourceTree = "<group>"; };
+		93BE68F81B75E6C50085DFFA /* spherical_constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spherical_constraint.h; sourceTree = "<group>"; };
+		93BE68FF1B75E9150085DFFA /* behavior.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = behavior.h; sourceTree = "<group>"; };
+		93BE69001B75E9150085DFFA /* constraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = constraint.h; sourceTree = "<group>"; };
+		93BE69011B75E9150085DFFA /* spring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spring.h; sourceTree = "<group>"; };
+		93BE690C1B75EFD10085DFFA /* math.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = math.xcodeproj; path = "../takram-math/math.xcodeproj"; sourceTree = "<group>"; };
+		93C6B51519B22F5500A1CF93 /* libtakram_verlet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtakram_verlet.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D7E4D41B2C5A47006EA047 /* verlet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = verlet.h; sourceTree = "<group>"; };
+		93D7E4FD1B2C5A52006EA047 /* verlet.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = verlet.cc; sourceTree = "<group>"; };
+		93F1B9F6180282B0002A5A5C /* takram_verlet_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = takram_verlet_test; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9309550B1A4FB1FC00D09023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE69231B75EFFF0085DFFA /* libtakram_math.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B474061B648C4C00613FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE692B1B75F0120085DFFA /* libtakram_math.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C6B51219B22F5500A1CF93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93BE69261B75F0060085DFFA /* libtakram_math.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1B9F3180282B0002A5A5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930955321A4FB46600D09023 /* libtakram_verlet.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		930955021A4FB1E200D09023 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				930959321A5062D400D09023 /* project.xcconfig */,
+				930959301A5062D400D09023 /* project_debug.xcconfig */,
+				930959311A5062D400D09023 /* project_release.xcconfig */,
+				930955031A4FB1E200D09023 /* product.xcconfig */,
+				930955061A4FB1E200D09023 /* test.xcconfig */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		93BE687E1B75E21B0085DFFA /* verlet */ = {
+			isa = PBXGroup;
+			children = (
+				93BE68801B75E2290085DFFA /* physics.h */,
+				93BE68851B75E2340085DFFA /* particle.h */,
+				93BE69011B75E9150085DFFA /* spring.h */,
+				93BE68FC1B75E8DF0085DFFA /* spring */,
+				93BE68FF1B75E9150085DFFA /* behavior.h */,
+				93BE68FD1B75E8E30085DFFA /* behavior */,
+				93BE69001B75E9150085DFFA /* constraint.h */,
+				93BE68FE1B75E8E80085DFFA /* constraint */,
+				938C0A3E1B7DB69A00922B96 /* container.h */,
+				938C0A401B7DB8DD00922B96 /* reference_iterator.h */,
+			);
+			path = verlet;
+			sourceTree = "<group>";
+		};
+		93BE68FC1B75E8DF0085DFFA /* spring */ = {
+			isa = PBXGroup;
+			children = (
+				93BE688A1B75E2490085DFFA /* spring.h */,
+				93BE68CB1B75E5500085DFFA /* pull_back_spring.h */,
+				93BE68DA1B75E5B90085DFFA /* constrained_spring.h */,
+				93BE68DF1B75E5C20085DFFA /* min_distance_spring.h */,
+			);
+			path = spring;
+			sourceTree = "<group>";
+		};
+		93BE68FD1B75E8E30085DFFA /* behavior */ = {
+			isa = PBXGroup;
+			children = (
+				93BE68C11B75E4D70085DFFA /* behavior.h */,
+				93BE688F1B75E30F0085DFFA /* attraction_behavior.h */,
+				93BE68941B75E31B0085DFFA /* constant_force_behavior.h */,
+				93BE68991B75E3360085DFFA /* gravity_behavior.h */,
+			);
+			path = behavior;
+			sourceTree = "<group>";
+		};
+		93BE68FE1B75E8E80085DFFA /* constraint */ = {
+			isa = PBXGroup;
+			children = (
+				93BE68C61B75E4E10085DFFA /* constraint.h */,
+				93BE689E1B75E3480085DFFA /* angular_constraint.h */,
+				93BE68A31B75E34F0085DFFA /* axis_constraint.h */,
+				93BE68A81B75E3580085DFFA /* circular_constraint.h */,
+				93BE68AD1B75E35F0085DFFA /* max_constraint.h */,
+				93BE68B21B75E3670085DFFA /* min_constraint.h */,
+				93BE68B71B75E3700085DFFA /* polygonal_constraint.h */,
+				93BE68BC1B75E3840085DFFA /* rectangular_constraint.h */,
+				93BE68E41B75E69F0085DFFA /* box_constraint.h */,
+				93BE68E91B75E6A70085DFFA /* cylindrical_constraint.h */,
+				93BE68EE1B75E6B40085DFFA /* planar_constraint.h */,
+				93BE68F31B75E6BC0085DFFA /* soft_box_constraint.h */,
+				93BE68F81B75E6C50085DFFA /* spherical_constraint.h */,
+			);
+			path = constraint;
+			sourceTree = "<group>";
+		};
+		93BE690D1B75EFD10085DFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93BE69141B75EFD10085DFFA /* libtakram_math.dylib */,
+				93BE69161B75EFD10085DFFA /* libtakram_math.a */,
+				93BE69181B75EFD10085DFFA /* libtakram_math.a */,
+				93BE691A1B75EFD10085DFFA /* takram_math_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93D7E38D1B2BCBEB006EA047 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				93D7E4D41B2C5A47006EA047 /* verlet.h */,
+				93D7E4FD1B2C5A52006EA047 /* verlet.cc */,
+				93BE687E1B75E21B0085DFFA /* verlet */,
+			);
+			name = src;
+			path = src/takram;
+			sourceTree = "<group>";
+		};
+		93D7E4261B2C20BE006EA047 /* test */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		93F8AD6617C8B39800310877 = {
+			isa = PBXGroup;
+			children = (
+				93D7E38D1B2BCBEB006EA047 /* src */,
+				93D7E4261B2C20BE006EA047 /* test */,
+				930955021A4FB1E200D09023 /* config */,
+				93F8AD7017C8B39800310877 /* products */,
+				93BE690C1B75EFD10085DFFA /* math.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		93F8AD7017C8B39800310877 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				9309550E1A4FB1FC00D09023 /* libtakram_verlet.dylib */,
+				93C6B51519B22F5500A1CF93 /* libtakram_verlet.a */,
+				93B474091B648C4C00613FB6 /* libtakram_verlet.a */,
+				93F1B9F6180282B0002A5A5C /* takram_verlet_test */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9309550D1A4FB1FC00D09023 /* verlet_shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 930955161A4FB1FC00D09023 /* Build configuration list for PBXNativeTarget "verlet_shared" */;
+			buildPhases = (
+				9309550A1A4FB1FC00D09023 /* Sources */,
+				9309550B1A4FB1FC00D09023 /* Frameworks */,
+				93B474711B648D4500613FB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BE691E1B75EFF90085DFFA /* PBXTargetDependency */,
+			);
+			name = verlet_shared;
+			productName = takram_triangulation;
+			productReference = 9309550E1A4FB1FC00D09023 /* libtakram_verlet.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		93B474081B648C4C00613FB6 /* verlet_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B474191B648C4C00613FB6 /* Build configuration list for PBXNativeTarget "verlet_ios" */;
+			buildPhases = (
+				93B474051B648C4C00613FB6 /* Sources */,
+				93B474061B648C4C00613FB6 /* Frameworks */,
+				93B474731B648D4F00613FB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BE692A1B75F00F0085DFFA /* PBXTargetDependency */,
+			);
+			name = verlet_ios;
+			productName = graphics_ios;
+			productReference = 93B474091B648C4C00613FB6 /* libtakram_verlet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93C6B51419B22F5500A1CF93 /* verlet_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C6B51619B22F5500A1CF93 /* Build configuration list for PBXNativeTarget "verlet_static" */;
+			buildPhases = (
+				93C6B51119B22F5500A1CF93 /* Sources */,
+				93C6B51219B22F5500A1CF93 /* Frameworks */,
+				93B474721B648D4A00613FB6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93BE69251B75F0020085DFFA /* PBXTargetDependency */,
+			);
+			name = verlet_static;
+			productName = sgss_opaque;
+			productReference = 93C6B51519B22F5500A1CF93 /* libtakram_verlet.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93F1B9F5180282B0002A5A5C /* verlet_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F1B9FE180282B1002A5A5C /* Build configuration list for PBXNativeTarget "verlet_test" */;
+			buildPhases = (
+				93F1B9F2180282B0002A5A5C /* Sources */,
+				93F1B9F3180282B0002A5A5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				930955311A4FB46000D09023 /* PBXTargetDependency */,
+			);
+			name = verlet_test;
+			productName = sgss_opaque_test;
+			productReference = 93F1B9F6180282B0002A5A5C /* takram_verlet_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F8AD6717C8B39800310877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sgss;
+				TargetAttributes = {
+					9309550D1A4FB1FC00D09023 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					93B474081B648C4C00613FB6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 93F8AD6A17C8B39800310877 /* Build configuration list for PBXProject "verlet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93F8AD6617C8B39800310877;
+			productRefGroup = 93F8AD7017C8B39800310877 /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 93BE690D1B75EFD10085DFFA /* Products */;
+					ProjectRef = 93BE690C1B75EFD10085DFFA /* math.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9309550D1A4FB1FC00D09023 /* verlet_shared */,
+				93C6B51419B22F5500A1CF93 /* verlet_static */,
+				93B474081B648C4C00613FB6 /* verlet_ios */,
+				93F1B9F5180282B0002A5A5C /* verlet_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		93BE69141B75EFD10085DFFA /* libtakram_math.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libtakram_math.dylib;
+			remoteRef = 93BE69131B75EFD10085DFFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93BE69161B75EFD10085DFFA /* libtakram_math.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtakram_math.a;
+			remoteRef = 93BE69151B75EFD10085DFFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93BE69181B75EFD10085DFFA /* libtakram_math.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libtakram_math.a;
+			remoteRef = 93BE69171B75EFD10085DFFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		93BE691A1B75EFD10085DFFA /* takram_math_test */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = takram_math_test;
+			remoteRef = 93BE69191B75EFD10085DFFA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93B474711B648D4500613FB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/script/header.sh\" \"src\"";
+		};
+		93B474721B648D4A00613FB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/script/header.sh\" \"src\"";
+		};
+		93B474731B648D4F00613FB6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/script/header.sh\" \"src\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9309550A1A4FB1FC00D09023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D7E4FE1B2C5A52006EA047 /* verlet.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B474051B648C4C00613FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B474741B648D8F00613FB6 /* verlet.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C6B51119B22F5500A1CF93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D7E4FF1B2C5A52006EA047 /* verlet.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F1B9F2180282B0002A5A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		930955311A4FB46000D09023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9309550D1A4FB1FC00D09023 /* verlet_shared */;
+			targetProxy = 930955301A4FB46000D09023 /* PBXContainerItemProxy */;
+		};
+		93BE691E1B75EFF90085DFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = math_shared;
+			targetProxy = 93BE691D1B75EFF90085DFFA /* PBXContainerItemProxy */;
+		};
+		93BE69251B75F0020085DFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = math_static;
+			targetProxy = 93BE69241B75F0020085DFFA /* PBXContainerItemProxy */;
+		};
+		93BE692A1B75F00F0085DFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = math_ios;
+			targetProxy = 93BE69291B75F00F0085DFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		930955171A4FB1FC00D09023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		930955181A4FB1FC00D09023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93B4741A1B648C4C00613FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93B4741B1B648C4C00613FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		93C6B51719B22F5500A1CF93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)";
+			};
+			name = Debug;
+		};
+		93C6B51819B22F5500A1CF93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955031A4FB1E200D09023 /* product.xcconfig */;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)";
+			};
+			name = Release;
+		};
+		93F1B9FC180282B1002A5A5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955061A4FB1E200D09023 /* test.xcconfig */;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/lib";
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)_test";
+			};
+			name = Debug;
+		};
+		93F1B9FD180282B1002A5A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930955061A4FB1E200D09023 /* test.xcconfig */;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/lib";
+				PRODUCT_NAME = "takram_$(PROJECT_NAME)_test";
+			};
+			name = Release;
+		};
+		93F8AD7617C8B39800310877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930959301A5062D400D09023 /* project_debug.xcconfig */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		93F8AD7717C8B39800310877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930959311A5062D400D09023 /* project_release.xcconfig */;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		930955161A4FB1FC00D09023 /* Build configuration list for PBXNativeTarget "verlet_shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				930955171A4FB1FC00D09023 /* Debug */,
+				930955181A4FB1FC00D09023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B474191B648C4C00613FB6 /* Build configuration list for PBXNativeTarget "verlet_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B4741A1B648C4C00613FB6 /* Debug */,
+				93B4741B1B648C4C00613FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C6B51619B22F5500A1CF93 /* Build configuration list for PBXNativeTarget "verlet_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C6B51719B22F5500A1CF93 /* Debug */,
+				93C6B51819B22F5500A1CF93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F1B9FE180282B1002A5A5C /* Build configuration list for PBXNativeTarget "verlet_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F1B9FC180282B1002A5A5C /* Debug */,
+				93F1B9FD180282B1002A5A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F8AD6A17C8B39800310877 /* Build configuration list for PBXProject "verlet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F8AD7617C8B39800310877 /* Debug */,
+				93F8AD7717C8B39800310877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F8AD6717C8B39800310877 /* Project object */;
+}
