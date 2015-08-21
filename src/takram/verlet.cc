@@ -32,30 +32,5 @@ namespace verlet {
 const double version_number = 1.0;
 const unsigned char version_string[] = "1.0";
 
-// For static analysis
-template class Physics<double, 2>;
-template class Physics<double, 3>;
-template class Particle<double, 2>;
-template class Particle<double, 3>;
-template class spring::Spring<double, 2>;
-template class spring::Spring<double, 3>;
-template class spring::PullBackSpring<double, 2>;
-template class spring::PullBackSpring<double, 3>;
-template class spring::ConstrainedSpring<double, 2>;
-template class spring::ConstrainedSpring<double, 3>;
-template class spring::MinDistanceSpring<double, 2>;
-template class spring::MinDistanceSpring<double, 3>;
-template class behavior::AttractionBehavior<double, 2>;
-template class behavior::AttractionBehavior<double, 3>;
-template class behavior::ConstantForceBehavior<double, 2>;
-template class behavior::ConstantForceBehavior<double, 3>;
-template class behavior::GravityBehavior<double, 2>;
-template class behavior::GravityBehavior<double, 3>;
-template class constraint::AngularConstraint<double>;
-template class constraint::AxisConstraint<double>;
-template class constraint::CircularConstraint<double>;
-template class constraint::MaxConstraint<double>;
-template class constraint::MinConstraint<double>;
-
 }  // namespace verlet
 }  // namespace takram
