@@ -23,7 +23,7 @@ Run "setup.sh" inside "script" directory to initialize submodules and build depe
 
 LGPL License
 
-Copyright (C) 2015 Shota Matsuda
+Copyright (C) 2015 takram design engineering
 
 Based on toxiclibs http://toxiclibs.org/<br>
 Copyright (C) 2006-2011 Karsten Schmidt<br>
