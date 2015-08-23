@@ -15,6 +15,10 @@ An unofficial C++ port of toxiclib's Verlet physics (WIP).
 
 Run "setup.sh" inside "script" directory to initialize submodules and build dependant libraries.
 
+### Dependencies
+
+- [Math](https://github.com/takram-design-engineering/takram-math)
+
 ### Submodules
 
 - [Google Testing Framework](https://chromium.googlesource.com/external/googletest)
@@ -23,7 +27,7 @@ Run "setup.sh" inside "script" directory to initialize submodules and build depe
 
 LGPL License
 
-Copyright (C) 2015 takram design engineering
+Copyright (C) 2015 Shota Matsuda
 
 Based on toxiclibs http://toxiclibs.org/<br>
 Copyright (C) 2006-2011 Karsten Schmidt<br>

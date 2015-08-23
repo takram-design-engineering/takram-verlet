@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11CD0024B0B8A2D8875572687D946EE829FBFF0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "11CD0024B0B8A2D8875572687D946EE829FBFF0E" : 0,
+    "54A35B5F7E6CF0D37C23A7F208F4533C7D784BFD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3DC29B85-722A-4ED8-AB05-E05ADBDA65BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "11CD0024B0B8A2D8875572687D946EE829FBFF0E" : "takram-verlet",
+    "54A35B5F7E6CF0D37C23A7F208F4533C7D784BFD" : "takram-math"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "verlet",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "verlet.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:takram-design-engineering\/takram-verlet.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11CD0024B0B8A2D8875572687D946EE829FBFF0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:takram-design-engineering\/takram-math.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54A35B5F7E6CF0D37C23A7F208F4533C7D784BFD"
+    }
+  ]
+}
