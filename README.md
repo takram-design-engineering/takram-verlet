@@ -3,6 +3,9 @@ Verlet
 
 An unofficial C++ port of toxiclib's Verlet physics (WIP).
 
+[![License](https://img.shields.io/badge/license-LGPL-lightgrey.svg?style=flat
+)](http://www.gnu.org/licenses/lgpl-2.1.en.html)
+
 ### Classes
 
 - [`takram::verlet::Physics`](src/takram/verlet/physics.h)
