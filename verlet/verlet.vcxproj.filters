@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{6e067234-9d9b-4b89-a47c-bf6f88215564}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\takram\verlet\behavior\attraction_behavior.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\behavior\behavior.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\behavior\constant_force_behavior.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\behavior\gravity_behavior.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\behavior.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\angular_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\axis_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\box_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\circular_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\cylindrical_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\max_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\min_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\planar_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\polygonal_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\rectangular_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\soft_box_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint\spherical_constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\constraint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\container.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\particle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\physics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\reference_iterator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\spring\constrained_spring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\spring\min_distance_spring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\spring\pull_back_spring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\spring\spring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet\spring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\takram\verlet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\takram\verlet.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
