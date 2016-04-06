@@ -193,8 +193,8 @@ inline Physics<T, D>::Physics() : Physics(Vec<T, D>(), 50, 0, 1) {}
 
 template <class T, int D>
 inline Physics<T, D>::Physics(unsigned int iterations, T drag, T time_step)
-    : iterations_(iterations),
-      drag_(1 - drag),
+    : drag_(1 - drag),
+      iterations_(iterations),
       time_step_(time_step),
       behaviors_(std::bind(&Physics::configureBehavior, this,
                            std::placeholders::_1)),
