@@ -1,7 +1,7 @@
 Verlet
 ======
 
-An unofficial C++ port of toxiclib's Verlet physics.
+An unofficial C++ port of toxiclib's Verlet physics. Work in progress.
 
 [![Build Status](https://travis-ci.org/takram-design-engineering/takram-verlet.svg)](https://travis-ci.org/takram-design-engineering/takram-verlet) [![License](https://img.shields.io/badge/license-LGPL-lightgrey.svg?style=flat
 )](http://www.gnu.org/licenses/lgpl-2.1.en.html)
